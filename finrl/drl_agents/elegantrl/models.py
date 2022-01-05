@@ -1,10 +1,10 @@
 # DRL models from ElegantRL: https://github.com/AI4Finance-Foundation/ElegantRL
 import torch
-from elegantrl.agents.AgentDDPG import AgentDDPG
-from elegantrl.agents.AgentPPO import AgentPPO
-from elegantrl.agents.AgentSAC import AgentSAC
-from elegantrl.agents.AgentTD3 import AgentTD3
-from elegantrl.agents.AgentA2C import AgentA2C
+from elegantrl.agent import AgentDDPG
+from elegantrl.agent import AgentPPO
+from elegantrl.agent import AgentSAC
+from elegantrl.agent import AgentTD3
+from elegantrl.agent import AgentA2C
 from elegantrl.train.config import Arguments
 from elegantrl.train.run_tutorial import train_and_evaluate
 
